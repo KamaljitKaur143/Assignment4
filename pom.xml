@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- The model version of the project -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Basic information about the project -->
+    <groupId>com.example</groupId>  <!-- Replace with your project’s groupId -->
+    <artifactId>Assignment4</artifactId>  <!-- Replace with your project’s artifactId -->
+    <version>0.0.1-SNAPSHOT</version>  <!-- Replace with your project’s version -->
+
+    <packaging>jar</packaging>  <!-- Optional: Defines the packaging type of the artifact -->
+
+    <dependencies>
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+  </dependency>
+</dependencies>
+
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.api.ApiTest" time="3.186" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kamal\eclipse-workspace\Assignment4\target\test-classes;C:\Users\kamal\eclipse-workspace\Assignment4\target\classes;C:\Users\kamal\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\kamal\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\kamal\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\kamal\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kamal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kamal\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kamal\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kamal\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kamal\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\kamal\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\kamal\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\kamal\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kamal\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\kamal\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\kamal\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\kamal\AppData\Local\Temp\surefire5398404729226556422\surefirebooter-20241202201015244_3.jar C:\Users\kamal\AppData\Local\Temp\surefire5398404729226556422 2024-12-02T20-10-15_000-jvmRun1 surefire-20241202201015244_1tmp surefire_0-20241202201015244_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kamal\eclipse-workspace\Assignment4\target\test-classes;C:\Users\kamal\eclipse-workspace\Assignment4\target\classes;C:\Users\kamal\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\kamal\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\kamal\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\kamal\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kamal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kamal\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kamal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kamal\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kamal\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kamal\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\kamal\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\kamal\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\kamal\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\kamal\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kamal\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\kamal\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\kamal\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kamal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kamal\eclipse-workspace\Assignment4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kamal\AppData\Local\Temp\surefire5398404729226556422\surefirebooter-20241202201015244_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="kamal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kamal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kamal\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\kamal\eclipse-workspace\Assignment4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\HP\HP One Agent;C:\Users\kamal\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\kamal\AppData\Local\Android\Sdk\emulator;C:\Users\kamal\AppData\Local\Android\Sdk\build-tools\34.0.0;C:\Users\kamal\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-17;C:\Program Files\nodejs\;C:\Users\kamal\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\dotnet\;C:\Users\kamal\AppData\Local\Microsoft\WindowsApps;C:\Users\kamal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kamal\.dotnet\tools;C:\Users\kamal\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\kamal\AppData\Local\Android\Sdk\emulator;C:\Users\kamal\AppData\Local\Android\Sdk\build-tools\34.0.0;C:\Users\kamal\AppData\Local\Android\Sdk\plateform-tools;C:\Users\kamal\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAllPostsEndpoint" classname="com.example.api.ApiTest" time="1.879"/>
+  <testcase name="testContentType" classname="com.example.api.ApiTest" time="0.113"/>
+  <testcase name="testDeleteRequest" classname="com.example.api.ApiTest" time="0.154"/>
+  <testcase name="testInvalidEndpoint" classname="com.example.api.ApiTest" time="0.119"/>
+  <testcase name="testPostNewData" classname="com.example.api.ApiTest" time="0.177"/>
+  <testcase name="testPutRequest" classname="com.example.api.ApiTest" time="0.158"/>
+  <testcase name="testResponseBodyContainsKey" classname="com.example.api.ApiTest" time="0.084"/>
+  <testcase name="testResponseTime" classname="com.example.api.ApiTest" time="0.097"/>
+  <testcase name="testStatusCode" classname="com.example.api.ApiTest" time="0.084"/>
+</testsuite>

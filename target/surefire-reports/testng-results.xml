@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T20:10:15 EST" name="Surefire suite" finished-at="2024-12-02T20:10:18 EST" duration-ms="2899">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T20:10:15 EST" name="Surefire test" finished-at="2024-12-02T20:10:18 EST" duration-ms="2899">
+      <class name="com.example.api.ApiTest">
+        <test-method signature="testAllPostsEndpoint()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:15 EST" name="testAllPostsEndpoint" finished-at="2024-12-02T20:10:17 EST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPostsEndpoint -->
+        <test-method signature="testContentType()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:17 EST" name="testContentType" finished-at="2024-12-02T20:10:17 EST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testDeleteRequest()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:17 EST" name="testDeleteRequest" finished-at="2024-12-02T20:10:17 EST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRequest -->
+        <test-method signature="testInvalidEndpoint()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:17 EST" name="testInvalidEndpoint" finished-at="2024-12-02T20:10:18 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEndpoint -->
+        <test-method signature="testPostNewData()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:18 EST" name="testPostNewData" finished-at="2024-12-02T20:10:18 EST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostNewData -->
+        <test-method signature="testPutRequest()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:18 EST" name="testPutRequest" finished-at="2024-12-02T20:10:18 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutRequest -->
+        <test-method signature="testResponseBodyContainsKey()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:18 EST" name="testResponseBodyContainsKey" finished-at="2024-12-02T20:10:18 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseBodyContainsKey -->
+        <test-method signature="testResponseTime()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:18 EST" name="testResponseTime" finished-at="2024-12-02T20:10:18 EST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testStatusCode()[pri:0, instance:com.example.api.ApiTest@4d49af10]" started-at="2024-12-02T20:10:18 EST" name="testStatusCode" finished-at="2024-12-02T20:10:18 EST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+      </class> <!-- com.example.api.ApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

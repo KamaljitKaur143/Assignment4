@@ -1,0 +1,39 @@
+# Assignment 4: API Testing Project with TestNG and RestAssured
+
+## Project Overview
+This project demonstrates API testing using *TestNG* and *RestAssured* to test a public API (JSONPlaceholder). The objective is to implement temporary solutions to validate basic API functionality and address technical debts. The code focuses on performing simple GET and POST API tests, isolating problematic code, and documenting improvements for future development.
+
+The project emphasizes testing best practices, reducing technical debt, and using temporary solutions that can be improved over time.
+
+---
+
+## Prerequisites
+
+### Required Tools
+- *Java 8* or later (Java 22 recommended)
+- *Apache Maven*
+- *Eclipse IDE* or any Java IDE of your choice
+- *Git* for version control
+
+### Dependencies
+The project uses the following libraries:
+
+- *TestNG*: A testing framework for managing and running tests.
+- *RestAssured*: A Java library for testing RESTful APIs.
+  
+These dependencies are defined in the pom.xml file:
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.4.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>4.4.0</version>
+    </dependency>
+</dependencies>
